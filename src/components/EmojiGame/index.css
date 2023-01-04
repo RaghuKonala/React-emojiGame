@@ -1,0 +1,32 @@
+/* Write your code here. */
+.app-container {
+  background: linear-gradient(to top left, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  min-width: 450px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.emoji-cards-container {
+  padding: 0px;
+  max-width: 1000px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .emoji-cards-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

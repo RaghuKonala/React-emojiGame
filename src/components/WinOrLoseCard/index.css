@@ -1,0 +1,92 @@
+/* Write your code here. */
+.win-lose-card {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  padding: 32px;
+  border-radius: 25px;
+  max-width: 1000px;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-card {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+  }
+}
+
+.result-image-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+.result-image {
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .result-image-container {
+    order: 1;
+  }
+  .result-image {
+    width: 280px;
+  }
+}
+
+.result-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-result {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.score-label {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0;
+}
+.score {
+  color: #6a59ff;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .game-result {
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+  .score-label {
+    font-size: 40px;
+  }
+  .score {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+}
+.play-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

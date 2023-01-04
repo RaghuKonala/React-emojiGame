@@ -1,0 +1,60 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+}
+.navbar-elements-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  min-height: 10vh;
+  flex-basis: 80%;
+}
+
+.app-logo-container {
+  display: flex;
+  align-items: center;
+}
+.app-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.app-logo {
+  width: 30px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .app-title {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .app-logo {
+    width: 65px;
+    margin-right: 15px;
+  }
+}
+
+.scores-container {
+  display: flex;
+  align-items: center;
+}
+
+.scores-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .scores-text {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
